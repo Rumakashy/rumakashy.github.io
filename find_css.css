@@ -1,0 +1,283 @@
+h1 {
+	font-family: "Party Business", Sans-Serif;
+	margin-top: -40%;
+	text-align: left;
+	font-size: 80px;
+}
+.h1 .small, .h1 small, h1 .small, h1 small  {
+	color: white;
+}
+.h2 .small, .h2 small, .h3 .small, .h3 small, .h4 .small, .h4 small, .h5 .small, .h5 small, .h6 .small, .h6 small, h2 .small, h2 small, h3 .small, h3 small, h4 .small, h4 small, h5 .small, h5 small, h6 .small, h6 small {
+    font-weight: 400;
+    line-height: 1;
+    color: black;
+}
+h2 {
+	font-family: "Aniron", Sans-Serif;
+}
+h3 {
+	font-family: "Party Business", Sans-Serif;
+}
+hr {
+	border-color: #FF6517;
+	width: 50%;
+}
+.spec {
+	color: #FF6517;
+	font-family: "Tengwar Cursive", Sans-Serif;
+	font-size: 80px;
+}
+
+/* Navbar */
+.navbar {
+	background-color: #FF6517;
+	font-family: "Aniron", Sans-Serif;
+}
+.navbar-brand > img {
+    display: block;
+    margin-top: -5px;
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/* Pills */
+.pills {
+	background-image: url("img_integr/_bg_light.png");
+}
+.nav-pills > li > a {
+    border-radius: 4px;
+    color: gray;
+    font-family: "Aniron", Sans-Serif;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: underline;
+    background-color: white;
+    color: #FF6517;
+}
+
+/* Thumbnails */
+.thumbnail {
+	background-color: black;
+}
+.thumbnail:hover img {
+   opacity: 1;
+}
+.thumbnail img {
+	opacity: 0.5;
+	width: 100%;
+}
+.thumbnail img:hover {
+	opacity: 1;
+}
+.thumbnail .titlemini {
+   opacity: 1;
+}
+.thumbnail:hover > .reward {
+	display: none;
+}
+.thumbnail:hover > .titlemini {
+	display: inherit;
+}
+.titlemini {
+	width: 20%;
+	color: white;
+	margin-left: 30%;
+	top: 80%;
+	font-size: 40px;
+	text-align: center;
+	display: none;
+}
+span {
+	color: #DE7710;
+}
+.txt { 
+	position: absolute;
+	width: 70%;
+	margin-left: 6%;
+	top: 10px;
+	padding: 3%;
+	text-align: center;
+	background-color: #EDECEC;
+	opacity: 0.8;
+	border-radius: 15px;
+	font-size: 35px;
+	font-family: "Party Business", Sans-Serif;
+}
+.txt2 { 
+	position: absolute;
+	width: 70%;
+	margin-left: 6%;
+	top: 10px;
+	padding: 3%;
+	text-align: center;
+	opacity: 0.8;
+	font-size: 35px;
+	font-family: "Party Business", Sans-Serif;
+}
+h3 {
+	position: absolute;
+	width: 65%;
+	margin-left: 10%;
+	top: 45%; 
+	text-align: center;
+	font-size: 60px;
+	color: white;
+}
+.thumb {
+	font-family: "Party Business", Sans-Serif;
+	font-size: 25px;
+	color: gray;
+}
+.gimli {
+	text-decoration: line-through;
+}
+
+/* Media Object */
+.media {
+	background-image: url("img_integr/_bg_dark.png");
+	color: white;
+}
+.captured {
+	font-family: "Party Business", Sans-Serif;
+	font-size: 20px;
+	position: absolute;
+}
+.coin_sauron {
+	position: relative;
+	margin-left: 75%;
+	border-radius: 50%;
+}
+.media input {
+	position: relative;
+	margin-bottom: 3%;
+	margin-left: 35%;
+	height: 70px;
+	font-size: 20px;
+	font-family: "Aniron", Sans-Serif;
+	color: #DE7710;
+}
+.object {
+	background-image: url(img_integr/_bg_light.png);
+	font-family: "Party Business", Sans-Serif;
+}
+.profil {
+	color: #DE7710;
+	font-size: 40px;
+}
+.profil:hover {
+	color: #DE7710;
+}
+.like {
+	color: #DE7710;
+	font-size: 20px;
+	background-color: black;
+	width: 70px;
+}
+.lien {
+	color: black;
+	text-decoration: underline;
+}
+.lien:hover {
+	color: black;
+}
+
+/* Panel */
+.panels {
+	background-image: url("img_integr/_bg_dark.png");
+}
+.panels h2 {
+	color: white;
+}
+.container {
+	width: 90%;
+}
+.panel {
+	background-image: url("img_integr/_bg_light.png");
+	font-family: "Aniron", Sans-Serif;
+	font-size: 15px;
+}
+.panel-default > .panel-heading {
+    color: white;
+    background-color: #FF6517;;
+    border-color: #ddd;
+    font-family: "Aniron", Sans-Serif;
+    font-size: 20px;
+}
+.panel span {
+	color: black;
+}
+.panel2 p, .panel2 span {
+    font-family: "Party Business", Sans-Serif;
+    font-size: 25px;
+}
+.signature {
+	margin-left: 80%;
+	opacity: 0.6;
+}
+
+/* Join */
+.join {
+	background-image: url("img_integr/_bg_light.png");
+}
+.joinrow1 {
+	width: 90%;
+}
+.join p {
+	font-family: "Aniron", Sans-Serif;
+	font-size: 15px;
+}
+.join span {
+	font-family: "Aniron", Sans-Serif;
+    font-size: 20px;
+    color: #DE7710;
+}
+.join a {
+	background-color: black;
+	font-family: "Aniron", Sans-Serif;
+    font-size: 20px;
+    color: #DE7710;
+}
+.moreinfo {
+	text-align: center;
+	margin-top: 30px;
+}
+
+/* Contact */
+.contact {
+	background-image: url("img_integr/_bg_dark.png");
+}
+.contact h2 {
+	color: white;
+}
+.contact img {
+	max-height: 250px;
+	margin-bottom: 20px;
+}
+.form input, .form select, .form textarea {
+	width: 100%;
+	margin-top: 20px;
+}
+
+/* Footer */
+.footer {
+	background-color: #FF6517;
+	font-family: "Aniron", Sans-Serif;
+}
+.footer li {
+	list-style-type: none;
+	margin-top: 10px;
+}
+.footer a {
+	color: white;
+	text-decoration: none;
+}
+.footer span {
+	color: white;
+	font-size: 10px;
+}
